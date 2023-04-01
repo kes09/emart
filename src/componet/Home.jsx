@@ -1,9 +1,8 @@
 import React from "react";
-import Products from "./Products";
 
 const Home = () => {
   return (
-    <div classNameName="hero">
+    <div className="hero">
       <div className="card text-bg-dark  border-0 ">
         <img src="/assets/nocturne.jpg" className="card-img" alt="Background" />
         <div className="card-img-overlay d-flex flex-column justify-contet-center">
@@ -18,7 +17,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Products/>
     </div>
   );
 };
